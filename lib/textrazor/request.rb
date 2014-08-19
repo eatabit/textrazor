@@ -12,7 +12,8 @@ module TextRazor
       cleanup_html: 'cleanupHTML',
       language: 'languageOverride',
       filter_dbpedia_types: 'entities.filterDbpediaTypes',
-      filter_freebase_types: 'entities.filterFreebaseTypes'
+      filter_freebase_types: 'entities.filterFreebaseTypes',
+      rules: 'rules'
     }
 
     def self.post(text, options)
